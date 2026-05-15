@@ -5,15 +5,17 @@ This is a command-line budgeting application written in Python that calculates m
 
 # How to Use:
 Installing dependencies:
-- "pip install rich"
+- `pip install rich`
 
 Command-Line Interactive Mode:
-- py budget_calculator.py
+- `py budget_calculator.py`
 
 CLI Output Mode:
-- py budget_calculator.py -i x -f x -b x -e x -s
+- `py budget_calculator.py -i x -f x -b x -e x -s`
+
 OR
-- py budget_calculator.py --income x --food x --bills x -- entertainment x --savings
+
+- `py budget_calculator.py --income x --food x --bills x -- entertainment x --savings`
 ((1: Substitute x for relevant numbers))
 ((2: Include -s or --savings for the CLI mode to run the optional savings calculation if possible; otherwise the program will only run the default budgeting calculation.))
 
